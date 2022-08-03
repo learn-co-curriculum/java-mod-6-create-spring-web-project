@@ -167,10 +167,10 @@ public interface MemberRepository extends JpaRepository<Member, Integer> {
 }
 ```
 
-Notice that we are extending the `[JpaRepository`
+Notice that we are extending the [`JpaRepository`
 interface](https://docs.spring.io/spring-data/jpa/docs/current/api/org/springframework/data/jpa/repository/JpaRepository.html#getReferenceById-ID-)
 instead of
-`[CrudRepository](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html)`.
+[`CrudRepository`](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html)`.
 The
 
 `JpaRepository` interface a few JPA specific extensions that makes it more
