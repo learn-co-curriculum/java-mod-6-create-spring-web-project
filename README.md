@@ -64,12 +64,13 @@ Great! Now let's set this up in our project!
 
 ## Project Structure
 
-Since we will be using the MVC pattern, we need to create package to hold the
-various units. Create the following packages in the `com.example.springwebdemo`
-package:
+Create the following packages in the `com.example.springwebdemo` package:
 
 - `controller`
 - `service`
+
+Under the `controller` package, create a file called `LunchController.java`. Then
+create a `LunchService.java` file under the newly created `service` package.
 
 Your project structure should look like this:
 
