@@ -36,10 +36,10 @@ Spring Boot provides default configurations that set up the web server which
 handles the communication layer. We can focus on the business logic and let
 Spring Boot handle most of the boilerplate configurations.
 
-Spring Web provides bundles several dependencies that make it easy to build a
-web application. We'll see how helpful this is to us in a couple of lessons!
-In the meantime, we can see that our Spring Web dependency has been added by
-looking in the pom.xml file under `<dependencies>`:
+Spring Web bundles several dependencies that make it easy to build a web
+application. We'll see how helpful this is to us in a couple of lessons! In the
+meantime, we can see that our Spring Web dependency has been added by looking in
+the pom.xml file under `<dependencies>`:
 
 ```xml
     <dependency>
